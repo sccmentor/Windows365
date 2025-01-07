@@ -1,3 +1,7 @@
+# Name: 02_W365Graph-AddUsersToLicence
+# Created by: Paul Winstanley @sccmentor and Niall Brady @ncbrady
+# Documentation: 
+
 # Check if Microsoft.Graph.Users module is installed, install if not
 if (-not (Get-Module -ListAvailable -Name Microsoft.Graph.Users)) {
     Install-Module Microsoft.Graph.Users -Scope CurrentUser -Force -AllowClobber
