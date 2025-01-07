@@ -1,3 +1,7 @@
+# Name: 01_GetSKUs
+# Created by: Paul Winstanley @sccmentor and Niall Brady @ncbrady
+# Documentation: 
+
 # Optional - if you receive the error'Install-Package: No match was found for the specified search criteria and module name 'Microsoft.Graph.Identity.DirectoryManagement'. 
 # Try Get-PSRepository to see all available registered module repositories.'
 # the run the following command Register-PSRepository -Default
