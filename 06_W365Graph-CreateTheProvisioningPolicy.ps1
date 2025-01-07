@@ -1,3 +1,8 @@
+# Name: 06_W365Graph-CreateTheProvisioningPolicy
+# Created by: Paul Winstanley @sccmentor and Niall Brady @ncbrady
+# Documentation: 
+# Note: Change the AutopatchGroupID to match the one in your tenant - See: $autopatchGroupId = "aa48b6c3-23be-4e12-8a72-e138961c13b3"  # Example ID
+
 # Install required modules if not already installed
 if (-not (Get-Module -ListAvailable -Name Microsoft.Graph.Beta.DeviceManagement.Administration)) {
     Install-Module -Name Microsoft.Graph.Beta.DeviceManagement.Administration -Scope CurrentUser -Force -AllowClobber
