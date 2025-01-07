@@ -1,4 +1,8 @@
-﻿# Check if Microsoft.Graph.Groups module is installed, install if not
+# Name: 03_W365Graph-AddUsersToGroup
+# Created by: Paul Winstanley @sccmentor and Niall Brady @ncbrady
+# Documentation: 
+ 
+# Check if Microsoft.Graph.Groups module is installed, install if not
 if (-not (Get-Module -ListAvailable -Name Microsoft.Graph.Groups)) {
     Install-Module Microsoft.Graph.Groups -Scope CurrentUser -Force -AllowClobber
 }
