@@ -1,3 +1,7 @@
+# Name: 04_W365Graph-CreateANCAndPreReqs
+# Created by: Paul Winstanley @sccmentor and Niall Brady @ncbrady
+# Documentation: 
+
 # Install required modules if not already installed
 if (-not (Get-Module -ListAvailable -Name Az.Accounts)) {
     Install-Module -Name Az.Accounts -Scope CurrentUser -Force -AllowClobber
