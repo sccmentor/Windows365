@@ -1,3 +1,7 @@
+# Name: 05_W365Graph-GetYourAutopatchGroup ID
+# Created by: Paul Winstanley @sccmentor and Niall Brady @ncbrady
+# Documentation: 
+
 # Install required modules if not already installed
 if (-not (Get-Module -ListAvailable -Name Microsoft.Graph.Beta.DeviceManagement.Administration)) {
     Install-Module -Name Microsoft.Graph.Beta.DeviceManagement.Administration -Scope CurrentUser -Force -AllowClobber
